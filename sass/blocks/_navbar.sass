@@ -32,15 +32,16 @@
   top: 80px
   width: 100%
   left: 0
-  z-index: 0
+  z-index: -1
   padding-top: 16px
   padding-bottom: 16px
   background-color: $primary
   color: #ffffff
   transition: 0.2s
-  transform: translateY(-100%)
+  transform: translateY(-200%)
   // Всплывающее меню
   &_activ
+    
     transform: translateY(0)
   &__nav
     display: flex
@@ -82,5 +83,19 @@
     display: block
     font-size: 14px
     color: $text-color-light
-
+@media (max-width: 991px)
+    .navbar
+      &__mobile, &__landline
+        display: none
+@media (max-width: 576px)
+    .logo
+        display: none
+    .menu
+      top: 80px
+      &-button
+        height: 60px
+      &__nav
+        flex-direction: column
+      &__link
+        margin-bottom: 20px
 

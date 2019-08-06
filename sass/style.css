@@ -58,6 +58,10 @@ body {
   font-family: 'Proxima Nova Semibold', sans-serif;
 }
 
+.bg-secondary {
+  background: #f1f1f1;
+}
+
 @media (max-width: 576px) {
   .button-o {
     font-size: 10px;
@@ -251,5 +255,14 @@ body {
     background-size: 100%;
     background-position: top left;
   }
+}
+
+.block__offer {
+  background-color: #fff;
+  padding: 80px;
+}
+
+.offer {
+  padding: 129px 0;
 }
 /*# sourceMappingURL=style.css.map */

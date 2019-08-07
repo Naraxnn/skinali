@@ -67,7 +67,7 @@
       <div class="container">
         <div class="block__offer block-offer">
           <h2 class="offer__title">Оставьте заявку на расчет</h2>
-          <span class="offer_subtitle">и получите скидку 30% на изготовление скинали или фартука 
+          <span class="offer__subtitle">и получите скидку 30% на изготовление скинали или фартука 
             для кухни</span>
             <form action="" class="form offer__form">
               <div class="form__row">
@@ -84,22 +84,22 @@
                   <input type="text" class="input form__input">
                 </div>
               </div>
-              <div class="form__row">
+              <div class="form__row form__row-checkbox">
                 <div class="form__checkbox">
-                  <label for="">
-                    <input type="checkbox">Монтаж</label>
+                  <input class="checkbox" type="checkbox" id="install">
+                  <label class="checkbox__label" for="install">Монтаж</label>
                 </div>
                 <div class="form__checkbox">
-                  <label for="">
-                    <input type="checkbox">Доставка</label>
+                  <input class="checkbox" type="checkbox" id="delivery">
+                  <label class="checkbox__label" for="delivery">Доставка</label>
                 </div>
               </div>
               <div class="form__row">
-                <div class="form__group"><input type="text" placeholder="Ваше имя">
+                <div class="form__group"><input type="text" class="form__input input" placeholder="Ваше имя">
                 </div>
-                <div class="form__group"><input type="tel" placeholder="Ваш телефон">
+                <div class="form__group"><input type="tel" class="form__input input" placeholder="Ваш телефон">
                 </div>
-                <div class="form__group"><input type="submit" class="hero__button" value="Получить скидку" >
+                <div class="form__group"><input type="submit" class="hero__button form__button" value="Получить скидку" >
                 </div>
               </div>
             </form>

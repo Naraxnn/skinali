@@ -449,4 +449,30 @@ input[type="checkbox"]:checked + label:before {
     margin-bottom: 50px;
   }
 }
+
+.catalog-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.catalog-card {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.catalog-card_img {
+  max-width: 570px;
+  height: 130px;
+}
+
+.catalog-card__buttons {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
 /*# sourceMappingURL=style.css.map */
